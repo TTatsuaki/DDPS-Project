@@ -3,3 +3,4 @@ description: Welcome to the website of a project ran by Johanna, Julia, and Tats
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-cayman
+text-align: justify
