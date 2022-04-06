@@ -8,7 +8,7 @@ Having laid the ground for the actual research, the paper will adress the
 - limitations
 - Analysis
 - Findings
-The paper will conclude that….
+Then, the paper will proceed to conclusion and discussion on further analysis.
 
 # TIMELINE OF THE CONFLICT
 
@@ -44,6 +44,38 @@ Whether we can confirm the criticism’s observation of neutral framed coverage 
 Whether we can see a change in the frames as a reaction of such critique
 With emphasis on the second question. 
 
-# Methodology
+# DATA
+Our empirical analysis of the described issue is based on data obtained from the MediaCloud API. MediaCloud is an online platform monitoring world media, and providing - among other details - article titles based on selected specifications. In this analysis we obtained our data using the keywords “israel” and “palestine” in the query sent to the API, requesting articles published in the US or the UK between 1 May and 31 May 2021.
 
-# Limitations
+# METHODOLOGY
+The methodology used in this analysis is threefold. Using methods of automated text analysis, we qualitatively explore the shift in the use of words reporting on the events unfolding between Israel and Palestine in May 2021.
+First, relying on previous literature on the topic, we select two sets of words, one set referring to a “pro-Israel” and the other set referring to a “pro-Palestine” style of reporting. We then count the number of such words appearing in the collected text corpus (article titles published in the US or the UK in May 2021 using the words Israel and Palestine in their article body) to qualitatively identify the presence or absence of a shift between the two modes of biassed reporting. We find that through the course of May, both “pro-Israel” and “pro-Palestine” word-use decreased, indicating a potential shift towards more neutral language.
+To explore the problem further, we continue our qualitative analysis by dividing the observation period into four distinct subperiods, each referring to one quarter of May, and obtain word clouds for each of these quarters for an insight into the most typical words characterising the quarters.  We find that different words appear to dominate in each quarter, suggesting on the one hand changes in the nature of events that are reported on, on the other hand also potentially the changes in the way of reporting.
+Finally, we used topic modelling to observe the topics talked about in the US and UK media during May from yet another angle. Here we found a number of distinct topics, which might be helpful in the interpretation of the association between words found in the second step.
+
+# ANALYSIS
+
+# Limitations and further analysis
+Our analysis primarily explored the headlines of articles. We did this since headlines were significantly  easier to find compared to entire texts of articles, therefore enabling us to conduct this project. To take this analysis to a further step, however, exploring the corpus of articles should be considered. Full text articles will likely reveal the tone of the article even more, hence it will provide us further insights. Data collection will be a challenge to do so, nonetheless this approach is worth a try. 
+Looking into social media APIs will complement our research. First, it will reveal whether our assumption that there was a shift of the opinion from pro-Israeli to pro-palestinian in the public sphere was valid. This will reinforce our entire research credibility as the assumption will now be considered as an established fact. Secondly, there are various media outlets tweeting about the content of their articles. This is another approach that can be taken to study the stance of various media outlets, which is possibly easier than the approach described above. 
+This project consisted on focusing on key words: observing the frequency of these key words mentioned in the articles, and creating word clouds. This has allowed us to extract various insights out of those. To complement our studies, it is also possible to conduct sentimental analysis. Sentimental analysis will judge the overall tone of the article by giving scores that reflect how “positive” or “negative” they are. To conduct this study, there are again possible approaches to be considered. 
+One way is to use the Natural Language Toolkit (NLTK), which is a suite of libraries and programs allowing statistical natural language processing in Python. They have a function where they give scores to articles you have imported. 
+Another approach is to use the machine learning function. Firstly, there has to be human intervention to annotate the sentiment of a certain number of articles, which will be studied by the algorithm. Once this step is completed, the machine learning process can study other articles, based on the annotated data. 
+In order to conduct sentiment analysis, however, it is first necessary to divide the pool of the articles collected into pro-Israeli and pro-Palestinian ones. This is because solely calculating the scores of each article will not reveal the stance of them. This can become a challenge since the amount of articles to be classified is numerous. For the word cloud, it was interesting to see that there are observable trends showing how more neutral words are being used. However, the word cloud itself is not enough to fully determine if this is the case. For example, the use of the word Hamas- is it happening because the media is describing Hamas as representing a large body of Palestine? Or, to purely describe the situation, hence without an intention described above? The word clouds would not fully tell that.
+In terms of the world clouds, it was interesting to observe how there was a transition of words being used. The world clouds themselves, however, are not enough to reveal in what ways those words are used. For example, during the second quarter, various names were mentioned who were showing pro-Palestinian stance. It is uncertain whether those articles are, hence, critical of them, or vice versa. Although the findings so far are interesting as it has been shown that those pro-Palestinian stance was under the spotligh, further exploration of the actual content of the articles are needed. 
+
+# CONCLUSION
+
+## Bibliography
+El-Haroun, Z., 2021. Clashes in Jerusalem ahead of court case on Palestinians' eviction. [online] Reuters. Available at: 	<https://www.reuters.com/world/middle-east/clashes-jerusalem-ahead-court-case-palestinians-eviction-2021-05-05/> [Accessed 28 March 2022].
+Entman, R., 1993. Framing: Toward Clarification of a Fractured Paradigm. Journal of Communication, 43(4), pp.51-58.
+Farrell, S. and Lubell, M., 2021. Clashes, prayers in Jerusalem on Muslim Laylat al-Qadr. [online] Reuters. Available at: 	<https://www.reuters.com/world/middle-east/israel-boosts-security-forces-ahead-tense-night-jerusalem-2021-05-08/> [Accessed 28 March 2022].
+Kaiser, J., Rauchfleisch, A. and Bourassa, N., 2019. Connecting the (Far-)Right Dots: A Topic Modeling and Hyperlink Analysis of (Far-)Right Media Coverage during the US Elections 2016. Digital Journalism, 8(3), pp.422-441. 
+MacDonald, A., 2021. Israel-Palestine: A glossary of problematic media language. [online] Middle Eastern Eye. Available at: 	<https://www.middleeasteye.net/news/israel-palestine-aqsa-sheikh-jarrah-media-coverage-problematic-glossary>  [Accessed 28 March 2022].
+O'Toole, M., 2021. How to bring more balance to western media coverage of Israel and Palestine. [online] Al Jazeera Media Institute. Available at: <https://institute.aljazeera.net/en/ajr/article/1484>   [Accessed 28 March 2022].
+Reuters. 2021. Gaza residential tower collapses in Israeli airstrike, witnesses say. [online] Available at: <https://www.reuters.com/world/middle-east/gaza-residential-tower-collapses-israeli-airstrike-witnesses-say-2021-05-11/> [Accessed 28 March 2022].
+Tal, A., 2021. Israel and Palestinian militant group Hamas agree to a ceasefire. [online] CNN. Available at: <https://edition.cnn.com/2021/05/20/middleeast/israel-palestinian-gaza-conflict-ceasefire-intl/index.html> [Accessed 28 March 2022].
+the Guardian. 2021. Israeli police storm al-Aqsa mosque ahead of Jerusalem Day march. [online] Available at: 	<https://www.theguardian.com/world/2021/may/10/dozens-injured-in-clashes-over-israeli-settlements-ahead-of-jerusalem-day-march> [Accessed 28 March 2022].
+
+
+
