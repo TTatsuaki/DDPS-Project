@@ -56,8 +56,45 @@ To explore the problem further, we continue our qualitative analysis by dividing
 Finally, we used topic modelling to observe the topics talked about in the US and UK media during May from yet another angle. Here we found a number of distinct topics, which might be helpful in the interpretation of the association between words found in the second step.
 
 # ANALYSIS
+Western media attention strongly coincides with the intensity of the events on the ground - strongly increasing around the 10th of May and peaking around the conclusion of the ceasefire, with a strong decline of attention afterwards. The corpus of text was then examined for the two ‘camps’ of words employed, as claimed by critiques. The words searched for are: 
+‘Pro-Israel’:
+- (self) defence
+- Border conflict
+- Provocation/ clashes/(property) dispute
+- (Gaza) militants vs (Israeli) police
+- Extremists, terrorists
 
-# Limitations and further analysis
+‘Pro-Palestine’:
+- extreme violence
+- Shootings
+- Civilians casualties
+- Apartheid/structural discrimination
+- Occupation
+- settlers
+
+The identified “neutral/pro-israeli” words are most frequent between the 5th and 11th of May before they decline and stay at a stable level for the rest of the month. Curiously pro-palestinian words follow a very similar trend - although not as developed, there is also a peak visible in the first third of the month, with lower shares of proportion for the remaining month ( but at less stable daily levels).
+The word clouds offer a little more insight into the ongoing discourse, by displaying the most frequently used words per quarter of the month. The first quarter seems to coincide with the observations of critiques - with ‘Israel’ and ‘police’ being the most frequently appearing words. What is interesting, is that other frequently appearing words are names, such as Biden, Gadot and Hadid. In the second quarter, the focus on prominent persons again dominates the headlines of English speaking media, with some of the most frequent words being ‘Biden’, ‘Sanders’ and ‘Hadid’ again. While Biden as US president naturally appears in a global crisis, the names of Bernie Sanders and Bella Hadid were most likely at the centre of media attention because of their pro-Palestinian statements (Sanders, 2021; Respers France, 2021), which were harshly criticised at that time as anti-Israeli (in the case of Sanders, who himself is jewish) or straight anti-semitist (in the case of Hadid). The dominance of their names in headlines connected to the criticism on their pro-Palestinian statements shows both that the media discourse was distorted by events in the West, as well as that public favour was still with Israel. The last two quarters are rather hard to interpret. The fact that the word ‘Palestinian’ was more dominant than ‘Israeli’ can mean that there was more focus on the events happening in Palestine, but can also reflect that there was simply more destruction going on in Palestine than in Israel. 
+To shed light on the words in the word clouds and their context, topic modelling is applied to the corpus of data. Due to the limitation of only having headlines in the corpus, the usage of topic modelling is limited. Nevertheless, it shows that emotional words, such as ‘hate’ are used in the context of (Western) antisemitism (topic 3), while the Israeli-Palestinian conflict is connected to the neutral word ‘tension’ rather than more impactful words such as ‘discrimination’ (topic 2).
+To further refine the analysis it is interesting to look into how newspapers of different political camps were reporting about the conflict and were influenced by readers and critics. For this, the research picked 3 representative news outlets from each right-winged, left-winged and centre political bias. For the selection, both the political bias, but also the popularity of the newspaper was used. To identify the political bias, the website media bias/fact check was used. It is important to note that all these newspapers are mainstream media, therefore their political bias might be moderate, compared to what some ‘alternative’ sources are offering. This was done deliberately - the sources should represent a certain market share. 
+The nine sources selected are: 
+Left bias: 
+- The Guardian
+- CNN
+- The Washington Post
+Right bias: 
+- Fox News
+- The Telegraph
+- Washington Times
+centre: 
+- Reuters
+- Associated Press
+- Bloomberg
+Repeating the search employed before one can see a remarkable difference between right and left-winged media outputs in terms of word. Left-wing media outlets reacted to criticism more thoroughly and faster than right-wing media which continued 
+It becomes clear that left-leaning media outlets adapted to voiced criticism much more thoroughly than right-leaning sources, diminishing the use of “neutral” words rather quickly and using more extreme words to describe the events. Right-leaning outlets, however, kept a high amount of ‘neutral’  terms . 
+
+Looking at the topic modelling for these two corpora, another striking difference that can be observed is the focus of media attention. While left-leaning media primarily focuses on the events in Israel and Palestine, right-wing media’s attention is directed at events in the West (mainly America). topic 8 and 9 of left-wing headlines deal with ‘occupation’ and ‘settlement’ (mentioning as well the words ‘clash’ and ‘tension’ nevertheless). Right-leaning media, however, seems to discuss events related to American politics in the topics 1,3,5 and 7. Curiously anti-semitism seems to be a topic that right-leaning media discusses, although the present analysis does not suffice to conclude in what way this issue was discussed. 
+
+# LIMITATIONS AND FURTHER ANALYSIS
 Our analysis primarily explored the headlines of articles. We did this since headlines were significantly  easier to find compared to entire texts of articles, therefore enabling us to conduct this project. To take this analysis to a further step, however, exploring the corpus of articles should be considered. Full text articles will likely reveal the tone of the article even more, hence it will provide us further insights. Data collection will be a challenge to do so, nonetheless this approach is worth a try. 
 Looking into social media APIs will complement our research. First, it will reveal whether our assumption that there was a shift of the opinion from pro-Israeli to pro-palestinian in the public sphere was valid. This will reinforce our entire research credibility as the assumption will now be considered as an established fact. Secondly, there are various media outlets tweeting about the content of their articles. This is another approach that can be taken to study the stance of various media outlets, which is possibly easier than the approach described above. 
 This project consisted on focusing on key words: observing the frequency of these key words mentioned in the articles, and creating word clouds. This has allowed us to extract various insights out of those. To complement our studies, it is also possible to conduct sentimental analysis. Sentimental analysis will judge the overall tone of the article by giving scores that reflect how “positive” or “negative” they are. To conduct this study, there are again possible approaches to be considered. 
@@ -70,13 +107,21 @@ In terms of the world clouds, it was interesting to observe how there was a tran
 
 ## Bibliography
 El-Haroun, Z., 2021. Clashes in Jerusalem ahead of court case on Palestinians' eviction. [online] Reuters. Available at: 	<https://www.reuters.com/world/middle-east/clashes-jerusalem-ahead-court-case-palestinians-eviction-2021-05-05/> [Accessed 28 March 2022].
+
 Entman, R., 1993. Framing: Toward Clarification of a Fractured Paradigm. Journal of Communication, 43(4), pp.51-58.
+
 Farrell, S. and Lubell, M., 2021. Clashes, prayers in Jerusalem on Muslim Laylat al-Qadr. [online] Reuters. Available at: 	<https://www.reuters.com/world/middle-east/israel-boosts-security-forces-ahead-tense-night-jerusalem-2021-05-08/> [Accessed 28 March 2022].
+
 Kaiser, J., Rauchfleisch, A. and Bourassa, N., 2019. Connecting the (Far-)Right Dots: A Topic Modeling and Hyperlink Analysis of (Far-)Right Media Coverage during the US Elections 2016. Digital Journalism, 8(3), pp.422-441. 
+
 MacDonald, A., 2021. Israel-Palestine: A glossary of problematic media language. [online] Middle Eastern Eye. Available at: 	<https://www.middleeasteye.net/news/israel-palestine-aqsa-sheikh-jarrah-media-coverage-problematic-glossary>  [Accessed 28 March 2022].
+
 O'Toole, M., 2021. How to bring more balance to western media coverage of Israel and Palestine. [online] Al Jazeera Media Institute. Available at: <https://institute.aljazeera.net/en/ajr/article/1484>   [Accessed 28 March 2022].
+
 Reuters. 2021. Gaza residential tower collapses in Israeli airstrike, witnesses say. [online] Available at: <https://www.reuters.com/world/middle-east/gaza-residential-tower-collapses-israeli-airstrike-witnesses-say-2021-05-11/> [Accessed 28 March 2022].
+
 Tal, A., 2021. Israel and Palestinian militant group Hamas agree to a ceasefire. [online] CNN. Available at: <https://edition.cnn.com/2021/05/20/middleeast/israel-palestinian-gaza-conflict-ceasefire-intl/index.html> [Accessed 28 March 2022].
+
 the Guardian. 2021. Israeli police storm al-Aqsa mosque ahead of Jerusalem Day march. [online] Available at: 	<https://www.theguardian.com/world/2021/may/10/dozens-injured-in-clashes-over-israeli-settlements-ahead-of-jerusalem-day-march> [Accessed 28 March 2022].
 
 
