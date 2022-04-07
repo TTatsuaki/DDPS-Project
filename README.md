@@ -33,8 +33,8 @@ What can be observed here is that persistently voiced criticism of social media 
 
 # RESEARCH QUESTION AND METHODOLOGY
 This research will exclusively focus on the framing of media attention to the conflict period, aiming to observe the impact of the issued criticism. The research will not look into the bias of reported events itself (e.g., whether Palestinian aggressors are more prominent in media coverage than Isralian aggressors) as it would go beyond the scope of text analysis research. Rather the research will look into the frames of media coverage; examining two aspects of the media coverage. 
-Whether we can confirm the criticism’s observation of neutral framed coverage in favour of the Israelian narrative
-Whether we can see a change in the frames as a reaction of such critique
+- Whether we can confirm the criticism’s observation of neutral framed coverage in favour of the Israelian narrative
+- Whether we can see a change in the frames as a reaction of such critique
 With emphasis on the second question. 
 
 # DATA
