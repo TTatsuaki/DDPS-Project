@@ -110,6 +110,10 @@ In terms of the world clouds, it was interesting to observe how there was a tran
 
 # CONCLUSION
 
+# CODES
+Take a look at the notebook here:
+![notebook](Codes.ipynb)
+
 ## Bibliography
 El-Haroun, Z., 2021. Clashes in Jerusalem ahead of court case on Palestinians' eviction. [online] Reuters. Available at: 	<https://www.reuters.com/world/middle-east/clashes-jerusalem-ahead-court-case-palestinians-eviction-2021-05-05/> [Accessed 28 March 2022].
 
