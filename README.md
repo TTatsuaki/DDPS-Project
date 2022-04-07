@@ -64,7 +64,7 @@ Western media attention strongly coincides with the intensity of the events on t
 
 ![Frequency of words appearing for two sides](Frequencies.png)
 
-The identified “neutral/pro-israeli” words are most frequent between the 5th and 11th of May before they decline and stay at a stable level for the rest of the month. Curiously pro-palestinian words follow a very similar trend - although not as developed, there is also a peak visible in the first third of the month, with lower shares of proportion for the remaining month ( but at less stable daily levels).
+The identified “neutral/pro-israeli” words are most frequent between the 5th and 11th of May before they decline and stay at a stable level for the rest of the month. Curiously pro-palestinian words follow a very similar trend - although not as developed, there is also a peak visible in the first third of the month, with lower shares of proportion for the remaining month (but at less stable daily levels).
 
 ![Word clouds for 4 quarters of May](Wordclouds.png)
 The word clouds offer a little more insight into the ongoing discourse, by displaying the most frequently used words per quarter of the month. The first quarter seems to coincide with the observations of critiques - with ‘Israel’ and ‘police’ being the most frequently appearing words. What is interesting, is that other frequently appearing words are names, such as Biden, Gadot and Hadid. In the second quarter, the focus on prominent persons again dominates the headlines of English speaking media, with some of the most frequent words being ‘Biden’, ‘Sanders’ and ‘Hadid’ again. While Biden as US president naturally appears in a global crisis, the names of Bernie Sanders and Bella Hadid were most likely at the centre of media attention because of their pro-Palestinian statements (Sanders, 2021; Respers France, 2021, which were harshly criticised at that time as anti-Israeli (in the case of Sanders, who himself is jewish) or straight anti-semitist (in the case of Hadid) mainly by right-wing media outlets (Savitsky, 2021). The dominance of their names in headlines connected to the criticism on their pro-Palestinian statements shows both that the media discourse was distorted by events in the West, as well as that public favour was still with Israel. The last two quarters are rather hard to interpret. The fact that the word ‘Palestinian’ was more dominant than ‘Israeli’ can mean that there was more focus on the events happening in Palestine, but can also reflect that there was simply more destruction going on in Palestine than in Israel. 
@@ -83,9 +83,9 @@ Right bias:
 - The Telegraph
 - Washington Times
 
-Repeating the search employed before one can see a remarkable difference between right and left-winged media outputs in terms of word. Left-wing media outlets reacted to criticism more thoroughly and faster than right-wing media which continued 
+Repeating the search employed before one can see a remarkable difference between right and left-winged media outputs in terms of word. Left-wing media outlets reacted to criticism more thoroughly and faster than right-wing media which continued to keep their tone.
 
-It becomes clear that left-leaning media outlets adapted to voiced criticism much more thoroughly than right-leaning sources, diminishing the use of “neutral” words rather quickly and using more extreme words to describe the events. Right-leaning outlets, however, kept a high amount of ‘neutral’  terms . 
+It becomes clear that left-leaning media outlets adapted to voiced criticism much more thoroughly than right-leaning sources, diminishing the use of “neutral” words rather quickly and using more extreme words to describe the events. Right-leaning outlets, however, kept a high amount of ‘neutral’  terms. 
 
 ![Number of key terms appearing in different media outlets](Graphs.png)
 
