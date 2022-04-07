@@ -2,14 +2,7 @@
 # INTRODUCTION
 When in May 2021 there was yet another war-like outburst in the long history of the Israel-Palestine conflict it did not take long until thorough Western media coverage took of. However, with increasing media attention there was also rising criticism of the manner of coverage - especially the choice of words when describing the conflict. This criticism, largely voiced on social media and later institutionalised through various non-western aligned news outlets consistently remarked the choice of using ‘neutral’ terms when covering the conflict (such as ‘clash’, ‘property dispute’) as well as a skewed attention to palestinian aggressors (‘terrorists’) over Israeli violence (‘police operation’). This increasingly voiced contradicting narrative quickly became a substantive part of the online discourse on the topic, contradicting the dominant perspective on the events. 
 This research analyses the effects of the public sphere’s assessment of the media coverage through text analysis. To do so, it will first refresh the reader’s memory of the timeline of May 2021, before briefly introducing the theory of framing. Then, the paper will depict the widely spread criticism of Western media framing the new escalation of conflict in Israel Palestine, before quickly diving into the idea of public spheres and the influence of alternative media on mainstream discourse. 
-Having laid the ground for the actual research, the paper will adress the: 
-- research question
-- methodology
-- justifications (time period, choice of sources)
-- limitations
-- Analysis
-- Findings
-Then, the paper will proceed to conclusion and discussion on further analysis.
+Having laid the ground for the actual research, the paper will address the research question which will primarily focus on the framing of media attention during the period of confrontation, which will allow to reveal whether the issued criticism had a notable impact on their coverage. Having done this, methodology of observing the frequency of the appearance of key/proxy words that entail pro-israeli or pro-palestinian stance will be presented, followed by series of analysis conducted. The analysis kicks off by examining the frequency of the words appearing, yet also includes other approaches such as creating word clouds and conducting topic modelling. For observing the frequency of the words, further analysis was conducted by separating the media outlets according to their political spectrum (left or right). After careful evaluation taking place within the section, the research concludes by stating some limitations and overall conclusion. 
 
 # TIMELINE OF THE CONFLICT
 
