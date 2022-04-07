@@ -1,6 +1,8 @@
 # Framing the Israel-Palestine Conflict- A critical Analysis of Western media coverage in May 2021
+
 # INTRODUCTION
 When in May 2021 there was yet another war-like outburst in the long history of the Israel-Palestine conflict it did not take long until thorough Western media coverage took of. However, with increasing media attention there was also rising criticism of the manner of coverage - especially the choice of words when describing the conflict. This criticism, largely voiced on social media and later institutionalised through various non-western aligned news outlets consistently remarked the choice of using ‘neutral’ terms when covering the conflict (such as ‘clash’, ‘property dispute’) as well as a skewed attention to palestinian aggressors (‘terrorists’) over Israeli violence (‘police operation’). This increasingly voiced contradicting narrative quickly became a substantive part of the online discourse on the topic, contradicting the dominant perspective on the events. 
+
 This research analyses the effects of the public sphere’s assessment of the media coverage through text analysis. To do so, it will first refresh the reader’s memory of the timeline of May 2021, before briefly introducing the theory of framing. Then, the paper will depict the widely spread criticism of Western media framing the new escalation of conflict in Israel Palestine, before quickly diving into the idea of public spheres and the influence of alternative media on mainstream discourse. 
 Having laid the ground for the actual research, the paper will address the research question which will primarily focus on the framing of media attention during the period of confrontation, which will allow to reveal whether the issued criticism had a notable impact on their coverage. Having done this, methodology of observing the frequency of the appearance of key/proxy words that entail pro-israeli or pro-palestinian stance will be presented, followed by series of analysis conducted. The analysis kicks off by examining the frequency of the words appearing, yet also includes other approaches such as creating word clouds and conducting topic modelling. For observing the frequency of the words, further analysis was conducted by separating the media outlets according to their political spectrum (left or right). After careful evaluation taking place within the section, the research concludes by stating some limitations and overall conclusion. 
 
@@ -33,8 +35,10 @@ What can be observed here is that persistently voiced criticism of social media 
 
 # RESEARCH QUESTION AND METHODOLOGY
 This research will exclusively focus on the framing of media attention to the conflict period, aiming to observe the impact of the issued criticism. The research will not look into the bias of reported events itself (e.g., whether Palestinian aggressors are more prominent in media coverage than Isralian aggressors) as it would go beyond the scope of text analysis research. Rather the research will look into the frames of media coverage; examining two aspects of the media coverage. 
+
 - Whether we can confirm the criticism’s observation of neutral framed coverage in favour of the Israelian narrative
 - Whether we can see a change in the frames as a reaction of such critique
+
 With emphasis on the second question. 
 
 # DATA
@@ -63,6 +67,7 @@ The identified “neutral/pro-israeli” words are most frequent between the 5th
 
 ![Word clouds for 4 quarters of May](Wordclouds.png)
 The word clouds offer a little more insight into the ongoing discourse, by displaying the most frequently used words per quarter of the month. The first quarter seems to coincide with the observations of critiques - with ‘Israel’ and ‘police’ being the most frequently appearing words. What is interesting, is that other frequently appearing words are names, such as Biden, Gadot and Hadid. In the second quarter, the focus on prominent persons again dominates the headlines of English speaking media, with some of the most frequent words being ‘Biden’, ‘Sanders’ and ‘Hadid’ again. While Biden as US president naturally appears in a global crisis, the names of Bernie Sanders and Bella Hadid were most likely at the centre of media attention because of their pro-Palestinian statements (Sanders, 2021; Respers France, 2021, which were harshly criticised at that time as anti-Israeli (in the case of Sanders, who himself is jewish) or straight anti-semitist (in the case of Hadid) mainly by right-wing media outlets (Savitsky, 2021). The dominance of their names in headlines connected to the criticism on their pro-Palestinian statements shows both that the media discourse was distorted by events in the West, as well as that public favour was still with Israel. The last two quarters are rather hard to interpret. The fact that the word ‘Palestinian’ was more dominant than ‘Israeli’ can mean that there was more focus on the events happening in Palestine, but can also reflect that there was simply more destruction going on in Palestine than in Israel. 
+
 To shed light on the words in the word clouds and their context, topic modelling is applied to the corpus of data. Due to the limitation of only having headlines in the corpus, the usage of topic modelling is limited. Nevertheless, it shows that emotional words, such as ‘hate’ are used in the context of (Western) antisemitism (topic 3), while the Israeli-Palestinian conflict is connected to the neutral word ‘tension’ rather than more impactful words such as ‘discrimination’ (topic 2).
 To further refine the analysis it is interesting to look into how newspapers of different political camps were reporting about the conflict and were influenced by readers and critics. For this, the research picked 3 representative news outlets from each right-winged and left-winged bias. For the selection, both the political bias, but also the popularity of the newspaper was used. To identify the political bias, the website media bias/fact check was used. It is important to note that all these newspapers are mainstream media, therefore their political bias might be moderate, compared to what some ‘alternative’ sources are offering. This was done deliberately - the sources should represent a certain market share. 
 The six sources selected are: 
@@ -78,6 +83,7 @@ Right bias:
 - Washington Times
 
 Repeating the search employed before one can see a remarkable difference between right and left-winged media outputs in terms of word. Left-wing media outlets reacted to criticism more thoroughly and faster than right-wing media which continued 
+
 It becomes clear that left-leaning media outlets adapted to voiced criticism much more thoroughly than right-leaning sources, diminishing the use of “neutral” words rather quickly and using more extreme words to describe the events. Right-leaning outlets, however, kept a high amount of ‘neutral’  terms . 
 
 ![Number of key terms appearing in different media outlets](Graphs.png)
@@ -88,14 +94,20 @@ Looking at the topic modelling for these two corpora, another striking differenc
 
 # LIMITATIONS AND FURTHER ANALYSIS
 Our analysis primarily explored the headlines of articles. We did this since headlines were significantly  easier to find compared to entire texts of articles, therefore enabling us to conduct this project. To take this analysis to a further step, however, exploring the corpus of articles should be considered. Full text articles will likely reveal the tone of the article even more, hence it will provide us further insights. Data collection will be a challenge to do so, nonetheless this approach is worth a try. 
+
 Looking into social media APIs will complement our research. First, it will reveal whether our assumption that there was a shift of the opinion from pro-Israeli to pro-palestinian in the public sphere was valid. This will reinforce our entire research credibility as the assumption will now be considered as an established fact. Secondly, there are various media outlets tweeting about the content of their articles. This is another approach that can be taken to study the stance of various media outlets, which is possibly easier than the approach described above. 
+
 This project consisted on focusing on key words: observing the frequency of these key words mentioned in the articles, and creating word clouds. This has allowed us to extract various insights out of those. To complement our studies, it is also possible to conduct sentimental analysis. Sentimental analysis will judge the overall tone of the article by giving scores that reflect how “positive” or “negative” they are. To conduct this study, there are again possible approaches to be considered. 
 One way is to use the Natural Language Toolkit (NLTK), which is a suite of libraries and programs allowing statistical natural language processing in Python. They have a function where they give scores to articles you have imported. 
+
 Another approach is to use the machine learning function. Firstly, there has to be human intervention to annotate the sentiment of a certain number of articles, which will be studied by the algorithm. Once this step is completed, the machine learning process can study other articles, based on the annotated data. 
+
 In order to conduct sentiment analysis, however, it is first necessary to divide the pool of the articles collected into pro-Israeli and pro-Palestinian ones. This is because solely calculating the scores of each article will not reveal the stance of them. This can become a challenge since the amount of articles to be classified is numerous. For the word cloud, it was interesting to see that there are observable trends showing how more neutral words are being used. However, the word cloud itself is not enough to fully determine if this is the case. For example, the use of the word Hamas- is it happening because the media is describing Hamas as representing a large body of Palestine? Or, to purely describe the situation, hence without an intention described above? The word clouds would not fully tell that.
+
 In terms of the world clouds, it was interesting to observe how there was a transition of words being used. The world clouds themselves, however, are not enough to reveal in what ways those words are used. For example, during the second quarter, various names were mentioned who were showing pro-Palestinian stance. It is uncertain whether those articles are, hence, critical of them, or vice versa. Although the findings so far are interesting as it has been shown that those pro-Palestinian stance was under the spotligh, further exploration of the actual content of the articles are needed. 
 
 # CONCLUSION
+Throughout various approaches taken to tackle the research question, it was possible to find multiple interesting trends throuhgout the analysis. The decrease of the key words used for both pro-israel and pro-palestinian sides led us to interpret the effort of media outlets to be more neutral. Further analysis conducted by dividing the media outlets into left and right wing strengthened our analysis as it was able to observe apparent differences in terms of the way these media outlets covered the topic. For the word clouds, the emergence of the name of the people who voiced pro-palestinian opinion showed that western media outlets were increasingly focused on covering the pro-palestinian perspective. Yet, although the series of obsevrations gave various insights, it is still difficult to draw concrete conclusions to whether there was a real shift of stance among the media outlets. Further researches prsented in the section above could reveal a degree of uncertainty that still lies in the research. 
 
 # CODES
 The line of codes can be found on the github repository, named Codes.ipynb 
@@ -124,6 +136,3 @@ Savitsky, S., 2021. Bella Hadid accused of sharing anti-Semitic rhetoric over Is
 Tal, A., 2021. Israel and Palestinian militant group Hamas agree to a ceasefire. [online] CNN. Available at: <https://edition.cnn.com/2021/05/20/middleeast/israel-palestinian-gaza-conflict-ceasefire-intl/index.html> [Accessed 28 March 2022].
 
 the Guardian. 2021. Israeli police storm al-Aqsa mosque ahead of Jerusalem Day march. [online] Available at: 	<https://www.theguardian.com/world/2021/may/10/dozens-injured-in-clashes-over-israeli-settlements-ahead-of-jerusalem-day-march> [Accessed 28 March 2022].
-
-
-
