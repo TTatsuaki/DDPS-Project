@@ -63,6 +63,12 @@ Western media attention strongly coincides with the intensity of the events on t
 - settlers
 
 ![Frequency of words appearing for two sides](Frequencies.png)
+
+![Pro_Israeli_Right_Wing](PRRW.png)
+![Pro_Israeli_Left_Wing](PRLW.png)
+![Pro_Palestine_Right_Wing](PPRW.png)
+![Pro_Palestine_Left_Wing](PPLW.png)
+
 The identified “neutral/pro-israeli” words are most frequent between the 5th and 11th of May before they decline and stay at a stable level for the rest of the month. Curiously pro-palestinian words follow a very similar trend - although not as developed, there is also a peak visible in the first third of the month, with lower shares of proportion for the remaining month ( but at less stable daily levels).
 
 ![Word clouds for 4 quarters of May](Wordclouds.png)
