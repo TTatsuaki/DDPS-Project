@@ -75,7 +75,7 @@ The identified “neutral/pro-israeli” words are most frequent between the 5th
 The word clouds offer a little more insight into the ongoing discourse, by displaying the most frequently used words per quarter of the month. The first quarter seems to coincide with the observations of critiques - with ‘Israel’ and ‘police’ being the most frequently appearing words. What is interesting, is that other frequently appearing words are names, such as Biden, Gadot and Hadid. In the second quarter, the focus on prominent persons again dominates the headlines of English speaking media, with some of the most frequent words being ‘Biden’, ‘Sanders’ and ‘Hadid’ again. While Biden as US president naturally appears in a global crisis, the names of Bernie Sanders and Bella Hadid were most likely at the centre of media attention because of their pro-Palestinian statements (Sanders, 2021; Respers France, 2021), which were harshly criticised at that time as anti-Israeli (in the case of Sanders, who himself is jewish) or straight anti-semitist (in the case of Hadid). The dominance of their names in headlines connected to the criticism on their pro-Palestinian statements shows both that the media discourse was distorted by events in the West, as well as that public favour was still with Israel. The last two quarters are rather hard to interpret. The fact that the word ‘Palestinian’ was more dominant than ‘Israeli’ can mean that there was more focus on the events happening in Palestine, but can also reflect that there was simply more destruction going on in Palestine than in Israel. 
 To shed light on the words in the word clouds and their context, topic modelling is applied to the corpus of data. Due to the limitation of only having headlines in the corpus, the usage of topic modelling is limited. Nevertheless, it shows that emotional words, such as ‘hate’ are used in the context of (Western) antisemitism (topic 3), while the Israeli-Palestinian conflict is connected to the neutral word ‘tension’ rather than more impactful words such as ‘discrimination’ (topic 2).
 To further refine the analysis it is interesting to look into how newspapers of different political camps were reporting about the conflict and were influenced by readers and critics. For this, the research picked 3 representative news outlets from each right-winged, left-winged and centre political bias. For the selection, both the political bias, but also the popularity of the newspaper was used. To identify the political bias, the website media bias/fact check was used. It is important to note that all these newspapers are mainstream media, therefore their political bias might be moderate, compared to what some ‘alternative’ sources are offering. This was done deliberately - the sources should represent a certain market share. 
-The nine sources selected are: 
+The six sources selected are: 
 
 Left bias: 
 - The Guardian
@@ -87,15 +87,14 @@ Right bias:
 - The Telegraph
 - Washington Times
 
-Centre: 
-- Reuters
-- Associated Press
-- Bloomberg
-
 Repeating the search employed before one can see a remarkable difference between right and left-winged media outputs in terms of word. Left-wing media outlets reacted to criticism more thoroughly and faster than right-wing media which continued 
 It becomes clear that left-leaning media outlets adapted to voiced criticism much more thoroughly than right-leaning sources, diminishing the use of “neutral” words rather quickly and using more extreme words to describe the events. Right-leaning outlets, however, kept a high amount of ‘neutral’  terms . 
 
+![Number of key terms appearing in different media outlets](Graphs.png)
+
 Looking at the topic modelling for these two corpora, another striking difference that can be observed is the focus of media attention. While left-leaning media primarily focuses on the events in Israel and Palestine, right-wing media’s attention is directed at events in the West (mainly America). topic 8 and 9 of left-wing headlines deal with ‘occupation’ and ‘settlement’ (mentioning as well the words ‘clash’ and ‘tension’ nevertheless). Right-leaning media, however, seems to discuss events related to American politics in the topics 1,3,5 and 7. Curiously anti-semitism seems to be a topic that right-leaning media discusses, although the present analysis does not suffice to conclude in what way this issue was discussed. 
+
+![Topic modelling diagrams](Topicmodelling.png)
 
 # LIMITATIONS AND FURTHER ANALYSIS
 Our analysis primarily explored the headlines of articles. We did this since headlines were significantly  easier to find compared to entire texts of articles, therefore enabling us to conduct this project. To take this analysis to a further step, however, exploring the corpus of articles should be considered. Full text articles will likely reveal the tone of the article even more, hence it will provide us further insights. Data collection will be a challenge to do so, nonetheless this approach is worth a try. 
