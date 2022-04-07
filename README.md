@@ -2,7 +2,7 @@
 # INTRODUCTION
 When in May 2021 there was yet another war-like outburst in the long history of the Israel-Palestine conflict it did not take long until thorough Western media coverage took of. However, with increasing media attention there was also rising criticism of the manner of coverage - especially the choice of words when describing the conflict. This criticism, largely voiced on social media and later institutionalised through various non-western aligned news outlets consistently remarked the choice of using ‘neutral’ terms when covering the conflict (such as ‘clash’, ‘property dispute’) as well as a skewed attention to palestinian aggressors (‘terrorists’) over Israeli violence (‘police operation’). This increasingly voiced contradicting narrative quickly became a substantive part of the online discourse on the topic, contradicting the dominant perspective on the events. 
 This research analyses the effects of the public sphere’s assessment of the media coverage through text analysis. To do so, it will first refresh the reader’s memory of the timeline of May 2021, before briefly introducing the theory of framing. Then, the paper will depict the widely spread criticism of Western media framing the new escalation of conflict in Israel Palestine, before quickly diving into the idea of public spheres and the influence of alternative media on mainstream discourse. 
-Having laid the ground for the actual research, the paper will adress the 
+Having laid the ground for the actual research, the paper will adress the: 
 - research question
 - methodology
 - justifications (time period, choice of sources)
@@ -32,13 +32,11 @@ Coverage of Israel and Palestine through May
 
 Starting first of May, English language media outlets started publishing extensively on the issue, bringing the conflict once again into the centre of media attention and public discourse. The manner of media coverage, however, was soon criticised as depicting reality in a distorted way, backing up the Israeli perspective and leading to anti-Palestinian sentiments. The deliberate use of “objective” terms in Western media coverage was criticised as favouring and supporting the Israeli narrative against the Palestinian reality. What was first criticised by social media users, was soon picked up by The problem with neutral terms is that it assumes equality between the ‘conflict groups’ and a sense of mutuality in the conflict (O'Toole, M., 2021). Specifically words such as ‘clashes’, or ‘property/territory dispute’ imply that there is “a degree of equality in the use of violence and that both sides are equally to blame” (MacDonald, A., 2021). Moreover, these terms are passive, removing agency from the conflict, which ultimately leads to “blame […] be spread evenly among those involved” (MacDonald, A.). The use of terms such as property or territorial disputes goes as far as removing the cultural and deep-rooted origins of the conflict, diminishing it to its legal core, e.g. the practice of Israel placing settlers in Palestinian territory and the dispute over this illegal practice. This, however, ignores the structural discrimination and continued harassment that Palestinians have to endure under the Israeli state (MacDonald, A.). Moreover, according to criticism, such terms suggest that these disputes are disputes over “contest grounds”, something that goes against UN decisions that these ‘contest territories’ are lawfully Palestinian territory (O'Toole, M.). Moreover, there is an alleged bias about what is reported and how reporting is followed up: much attention is given to Palestinian aggressors (“terrorists”), but little to Israeli violence (“police operations”) (O'Toole, M.)
 
-
 This list of ‘neutral’ keywords is not exhaustive but offers an insight to the structure of the critics’ arguments. According to such criticism, the framing of the events of May 2021 appeared neutral, disguising the actual power structures at play, hence favouring the Israeli oppressor and legitimating its actions. Moreover, through distorted media coverage, western attention is disproportionally directed toward Palestinian violence against Israelis, while Israeli violence against Palestinians remains unseen. Overall, the framing of the May 2021 violence is alleged to be pro-Israeli in disguise, making it hard for uneducated readers to truly understand what is going on which contributes to the further marginalisation of Palestine. 
 
 ## Public spheres 
 
 What can be observed here is that persistently voiced criticism of social media users, specifically Twitter users got institutionalised and expressed in the institutionalised framework of alternative media. [Twitter](https://twitter.com/nytimes/status/1391788220589936640), and the alternative media outlets can be understood as ‘public spheres’ where opposing views can be voiced (Kaiser et.al, 424). Through the network organisation of users who are aware of the violence committed in Israel and Palestine, it was possible to build up a thorough ‘response mechanism’ to every publication on Twitter, contradicting the established ‘neutral’ narrative. As posts regarding the conflict became more frequent, the average Twitter user the number of contradicting criticism rose accordingly - building up a united front against the common perspective on the conflict. As mentioned in Kaiser et.al.’s paper, research has shown that such united public spheres have the potential to influence politics and public discourse, as expressed by mainstream media outlets (ibid). Especially when supported by ‘alternative media outlets’ (general understood as media that expresses the view of (discourse) minorities) (ibid, 425) the discourse brought forward in the public sphere is able to challenge the narrative of mainstream media (ibid, 424).
-
 
 # RESEARCH QUESTION AND METHODOLOGY
 This research will exclusively focus on the framing of media attention to the conflict period, aiming to observe the impact of the issued criticism. The research will not look into the bias of reported events itself (e.g., whether Palestinian aggressors are more prominent in media coverage than Isralian aggressors) as it would go beyond the scope of text analysis research. Rather the research will look into the frames of media coverage; examining two aspects of the media coverage. 
@@ -57,6 +55,7 @@ Finally, we used topic modelling to observe the topics talked about in the US an
 
 # ANALYSIS
 Western media attention strongly coincides with the intensity of the events on the ground - strongly increasing around the 10th of May and peaking around the conclusion of the ceasefire, with a strong decline of attention afterwards. The corpus of text was then examined for the two ‘camps’ of words employed, as claimed by critiques. The words searched for are: 
+
 ‘Pro-Israel’:
 - (self) defence
 - Border conflict
@@ -77,18 +76,22 @@ The word clouds offer a little more insight into the ongoing discourse, by displ
 To shed light on the words in the word clouds and their context, topic modelling is applied to the corpus of data. Due to the limitation of only having headlines in the corpus, the usage of topic modelling is limited. Nevertheless, it shows that emotional words, such as ‘hate’ are used in the context of (Western) antisemitism (topic 3), while the Israeli-Palestinian conflict is connected to the neutral word ‘tension’ rather than more impactful words such as ‘discrimination’ (topic 2).
 To further refine the analysis it is interesting to look into how newspapers of different political camps were reporting about the conflict and were influenced by readers and critics. For this, the research picked 3 representative news outlets from each right-winged, left-winged and centre political bias. For the selection, both the political bias, but also the popularity of the newspaper was used. To identify the political bias, the website media bias/fact check was used. It is important to note that all these newspapers are mainstream media, therefore their political bias might be moderate, compared to what some ‘alternative’ sources are offering. This was done deliberately - the sources should represent a certain market share. 
 The nine sources selected are: 
+
 Left bias: 
 - The Guardian
 - CNN
 - The Washington Post
+
 Right bias: 
 - Fox News
 - The Telegraph
 - Washington Times
-centre: 
+
+Centre: 
 - Reuters
 - Associated Press
 - Bloomberg
+
 Repeating the search employed before one can see a remarkable difference between right and left-winged media outputs in terms of word. Left-wing media outlets reacted to criticism more thoroughly and faster than right-wing media which continued 
 It becomes clear that left-leaning media outlets adapted to voiced criticism much more thoroughly than right-leaning sources, diminishing the use of “neutral” words rather quickly and using more extreme words to describe the events. Right-leaning outlets, however, kept a high amount of ‘neutral’  terms . 
 
